@@ -14,7 +14,7 @@ build:
 deploy:
   context: amar-hikeqa/DEV
   type: elasticsearch6  
-  replicas: 1
+  replicas: 2
   port:
   - 9200
   - 9300
@@ -31,4 +31,4 @@ monitor:
   notify: appzops@cloudbourne.co      
 
 properties:
-  revision : 06
+  revision : 05
